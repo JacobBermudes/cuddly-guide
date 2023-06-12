@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "0.1alpha",
+  "description": "simple api",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobBermudes/cuddly-guide.git"
+  },
+  "author": "jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobBermudes/cuddly-guide/issues"
+  },
+  "homepage": "https://github.com/JacobBermudes/cuddly-guide#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  }
+}
