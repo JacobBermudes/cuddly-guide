@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobApp|Auth page</title>
+    <style>
+        div.upView {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        div.logInMenu {
+            text-align: right;
+            font-size: large;
+            font-weight: 400;
+        }
+        div.authWindow {
+            align-content: flex-end;
+            display: flexbox;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <div class="upView">
+            <div>Auth page</div>
+            <div class="logInMenu">
+                <p><a href="/auth">logIn</a></p>
+                <p><a href="/auth">signUp</a></p>
+            </div>
+        </div>
+    </h1>
+
+    <div class="authWindow">
+        <p>
+            <label for="login">Your account name:</label>
+            <input type="text" id="login" name="login">
+        </p>
+        <p>
+            <label for="pwd">Your password:</label>
+            <input type="text" id="pwd" name="pwd">
+        </p>
+    </div>
+</body>
+</html>

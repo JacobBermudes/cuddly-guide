@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobApp|Web admin tools</title>
+    <style>
+        body {
+            background-image: url('/pages/1313982.jpg');
+        }
+
+        div.controlMenu {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        div.controlMenu p {
+            margin: 0;
+        }
+
+        div.logIn {
+            text-align: right;
+            font-size: large;
+            font-weight: 400;
+        }
+
+        div.upView {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>
+        <div class="upView">
+            <div>Panel of administration</div>
+            <div class="logIn">
+                <p><a href="/auth">logIn</a></p>
+                <p><a href="/auth">signUp</a></p>
+            </div>
+        </div>
+    </h1>
+
+    <div class="controlMenu">
+        <p><button type="submit">Exchange control</button></p>
+        <p><button type="submit">Database control</button></p>
+        <p><button type="submit">MobileAp control</button></p>
+    </div>
+
+</body>
+
+</html>
