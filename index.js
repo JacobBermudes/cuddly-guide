@@ -16,6 +16,12 @@ app.get('/auth', (req, res)=>{
     res.render(getEjsPage('auth'))
 })
 
+app.post('/auth/login', (req, res)=>{
+    if (req.params.passwd = PASSWD) {
+        res.send('Hello')
+    } 
+})
+
 app.get('/oldIndex', (req, res)=>{
     res.sendFile(getPage('index'))
 })
